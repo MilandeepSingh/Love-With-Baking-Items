@@ -111,7 +111,7 @@ h2.description{
 }
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
-   content: "\2605";
+   content: "/2605";
    position: absolute;
    color:  #FDCC0D;
 }
