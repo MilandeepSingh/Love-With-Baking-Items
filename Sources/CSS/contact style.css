@@ -1,0 +1,313 @@
+body{
+	
+	background-color: lightblue;
+
+	/*background-image: url("cupcakes desert.jpg");*/
+
+	background-size: cover;
+
+    font-family: "Avenir Next";
+
+    background-image: url('../images/contact/contact_background.jpg');
+	
+	min-width:1500px;
+}
+.header{
+	background-color: #0009;/*for transparent header*/
+
+    color:	#800080;
+
+    height: 90px;
+
+    border: 0px;
+
+    overflow: hidden;
+
+    }
+
+.header :hover{
+
+    background-color: #21b4385;
+
+}
+
+.header-list li{
+     
+     float: left;
+
+     padding: 35px 25px;
+
+      display:inline-block;/*if we remove this then heading will be shown in vertical*/
+
+	 font-size:25;
+	 
+	 text-align:right;
+	 
+	 font-family: 'Helvetica';
+	 
+	 font-weight: bold;
+
+	 color: white;
+
+     transition: 0.8s all;
+}
+
+/* For header and header list */
+
+.header-logo{
+
+	float: left;
+
+	font-size: 36px;
+
+	padding: 0px 40px 0px 10px;
+
+	color: #FF0000;
+	height:90px;
+	
+	line-height:70px;
+}
+
+/* For header logo */
+
+li{
+	list-style: none;
+}
+
+h1.hello{
+	font-size:80;
+}
+
+h2.description{
+	font-size:50;
+}
+
+
+.main
+{
+
+    position: absolute;
+
+    top: 30%;
+
+   left: 50%;
+
+   transform: translate(-50%,-50%);
+
+}
+
+.main h1{
+
+color: blue;
+
+ font-size: 42px;
+
+text-align: center;
+
+}
+
+.main p{
+ 
+ color: #0000FF;
+
+ font-size: 13px;
+
+
+
+}
+
+.form{
+
+	position: absolute;
+
+	top: 64%;
+
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+
+	text-align: center;
+
+}
+
+/* For details input */
+
+#msg{
+
+	margin-top: 60px;
+}
+
+button{
+
+	padding: 20px 32px;
+
+	font-size: 16px;
+
+	background: #0078ff;
+
+	border: none;
+
+	border-radius: 4px;
+
+	margin-top: 30px;
+
+	color: #fff;
+}
+
+/* For 'Let's talk' button */
+
+input{
+
+  width: 100%;
+
+  margin: 20px 0;
+
+  background: rgba(0,0,0,0);
+
+  border:none;
+
+  border-bottom: 1px solid #0078ff;
+
+
+}
+
+textarea{
+
+  width: 100%;
+
+  margin: 0px 0;
+
+  background: rgba(0,0,0,0);
+
+  border:none;
+
+  border-bottom: 1px solid #0078ff;
+
+
+}
+
+/* For input box and text-field */
+
+::-webkit-input-placeholder{
+              
+ color:  #00008B;
+
+ font-size: 13px;
+
+ letter-spacing: 3px;
+ 
+
+
+}
+
+.footer{
+
+	/*background-color: #008B8B;*/
+
+	 color: #99e6ff;
+
+    position: fixed;
+
+    bottom: 0px;
+
+    margin: 0;
+
+    padding: 0;
+
+    left: 0;
+
+    right: 0;
+
+    width: 100%;
+
+    height: 70px;
+
+    text-shadow: 1px 1px 1px black;
+
+    border-top: 1px solid rgba(0,0,0,0.3);
+
+    background: rgba(0,0,0,0.25);
+
+    box-shadow: inset 0 1px rgba(255,255,255,0.3);
+
+
+
+}
+
+
+a:hover{
+
+	text-decoration: none;
+}
+
+.footer-logo{
+
+	font-size: 16px;
+
+	float: left;
+
+	padding: 0px 10px;
+	
+	color:ffffff;
+
+	height: 70px;
+	
+	
+	
+}
+.footnote{
+
+
+
+	padding: 5px 20px;
+	
+	margin-left:550px;
+	
+	font-size:35;
+	
+	color:#f39d1a;
+	
+	background-color:#0009;
+	
+	margin-right:545px;
+	
+	margin-top:10px;
+	
+	border : 2px solid black;
+	
+	border-radius:10px;
+	
+	text-align:center;
+	
+}
+
+/* For footer, footer logo and footer text */
+
+.header-list ul li:hover{
+
+	background-color: #f39d1a;
+	color: #ffffff;
+}
+
+li.selected{
+	color:#f39d1a;
+}
+
+.selhover :hover{
+	
+	color:#ffffff;
+	font-size:40;
+}
+*{
+
+margin: 0px;
+
+}
+
+a{
+
+	text-decoration: none;
+
+}
+
+/* Some other small tags */
