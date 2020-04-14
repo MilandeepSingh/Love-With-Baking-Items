@@ -2,15 +2,17 @@ body{
 	
 	background-color: lightblue;
 
+	/*background-image: url("cupcakes desert.jpg");*/
+
 	background-size: cover;
 
     font-family: "Avenir Next";
 
-    background-image: url('../images/home/home_background.jpg');
+    background-image: url("../images/clients/clients_background.jpg");
 	
-	min-width: 1500px;
+	min-width:1500px;
+	
 }
-/* Tweaks for body such as body background, setting minimum width */
 .header{
 	background-color: #0009;/*for transparent header*/
 
@@ -23,6 +25,12 @@ body{
     overflow: hidden;
 
     }
+
+.header :hover{
+
+    background-color: #21b4385;
+
+}
 
 .header-list li{
      
@@ -44,10 +52,9 @@ body{
 
      transition: 0.8s all;
 	 
+	 
+
 }
-
-/* Displaying navigation bar */
-
 .header-logo{
 
 	float: left;
@@ -57,43 +64,56 @@ body{
 	padding: 0px 40px 0px 10px;
 
 	color: #FF0000;
+	
 	height:90px;
 	
 	line-height:70px;
 }
 
-/* Logo fixation in the header */
 
 li{
-	list-style: none; /*To remove bullets from navigation bar list*/
+	list-style: none;
 }
 
-h1.hello{
+.main h1.heading{
+	
+	color: #f39d1a;
+	
 	font-size:80;
-	font-family:"cooper black";
+	
+	font-family:"Algerian";
+	
+	border:3px groove #f39d1a;
+	
+	background: #0007;
+	
+	margin:auto;
+	
+	border-radius: 30px;
+	
+	text-align: center;
+	
+	width: 60%;
+	
 }
 
-h2.description{
-	font-size:50;
-	font-family:"cooper black";
-}
-
-h3.engage{
-	font-size:35;
-	font-family:"cooper black";
-}
-
-/* Setting size and font for page content */
 
 .learnmore{
 	border: 2px solid #f39d1a;
+
 	height:50px;
+
 	width:200px;
+
 	border-radius:50px;	
+
 	background-color:#111111;
+
 	font-size: 25;
+
 	line-height:50px;
-	display:block;
+
+	display: block;
 }
 
 .learnmore a{
@@ -102,27 +122,44 @@ h3.engage{
 
 .learnmore *:hover{
 	border: 2px solid #f39d1a;
+
 	height:50px;
+
 	width:200px;
+
 	border-radius:50px;	
+
 	background-color:#f39d1a;
+
 	color:#ffffff;
+
 	font-size: 25;
+
 	line-height:45px;
+
 	display:block;
 	
 }
-
-/* Setting the properties of leaarn more button */
-
 .main
 {
+	height: 600px;
 
-    height: 600px;
-	color: ffffff;
-	background-color:#2226;
+   
+}
+
+.main p{
+ 
+ color: #0000FF;
+
+ font-size: 13px;
+
+
 
 }
+
+
+
+
 
 .footer{
 
@@ -205,8 +242,6 @@ a:hover{
 	
 }
 
-/* Properties of footer, footer logo and footer text */
-
 .header-list ul li:hover{
 
 	background-color: #f39d1a;
@@ -234,4 +269,66 @@ a{
 
 }
 
-/* Other small tweaks for better display */
+.client1{
+
+	background-color: #0009;
+
+	margin-top: 20px;
+
+	margin-right: 10px;
+
+	margin-left: 10px;
+
+	margin-left: 10px;
+
+	padding-top: 6px;
+
+	border-left: 10px;
+
+    height:200px;
+
+}
+
+.client1 img{
+
+	height: 175px;
+
+	width: 200px;
+
+	padding-left: 40px;
+
+    padding-top: 7px;
+}
+
+
+.client2{
+
+	background-color: #0009;
+
+	margin-top: 20px;
+
+	margin-right: 10px;
+
+	margin-left: 10px;
+
+	margin-left: 10px;
+
+	padding-top: 6px;
+
+	border-left: 10px;
+
+    height:200px;
+
+}
+
+.client2 img{
+
+	height: 175px;
+
+	width: 200px;
+
+	padding-left: 40px;
+
+    padding-top: 7px;
+}
+

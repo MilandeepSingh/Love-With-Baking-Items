@@ -24,6 +24,8 @@ body{
 
     }
 
+/* Properties of header */
+
 .header-list li{
      
      float: left;
@@ -67,60 +69,61 @@ body{
 li{
 	list-style: none; /*To remove bullets from navigation bar list*/
 }
-
-h1.hello{
-	font-size:80;
-	font-family:"cooper black";
-}
-
-h2.description{
-	font-size:50;
-	font-family:"cooper black";
-}
-
-h3.engage{
-	font-size:35;
-	font-family:"cooper black";
-}
-
-/* Setting size and font for page content */
-
-.learnmore{
-	border: 2px solid #f39d1a;
-	height:50px;
-	width:200px;
-	border-radius:50px;	
-	background-color:#111111;
-	font-size: 25;
-	line-height:50px;
-	display:block;
-}
-
-.learnmore a{
-	color:#f39d1a;
-}
-
-.learnmore *:hover{
-	border: 2px solid #f39d1a;
-	height:50px;
-	width:200px;
-	border-radius:50px;	
-	background-color:#f39d1a;
-	color:#ffffff;
-	font-size: 25;
-	line-height:45px;
-	display:block;
+.main h1.mainhead{
+	
+	color: #f39d1a;
+	
+	font-size:70;
+	
+	font-family:"Algerian";
+	
+	border:3px groove #f39d1a;
+	
+	background: #0007;
+	
+	margin:auto;
+	
+	border-radius: 30px;
+	
+	text-align: center;
+	
+	width: 30%;
 	
 }
 
-/* Setting the properties of leaarn more button */
+h2.description{
+	font-size:35;
+	padding:10px 60px;
+	font-family:"algerian";
+}
+
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size:50;
+  width:100%
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "/2605";
+   position: absolute;
+   color:  #FDCC0D;
+}
+
+/* CSS for rating stars */
 
 .main
 {
 
     height: 600px;
 	color: ffffff;
-	background-color:#2226;
+	background-color:#0009;
 
 }
 
@@ -187,7 +190,7 @@ a:hover{
 	
 	margin-left:550px;
 	
-	font-size:35;
+	font-size:35px;
 	
 	color:#f39d1a;
 	
@@ -205,7 +208,7 @@ a:hover{
 	
 }
 
-/* Properties of footer, footer logo and footer text */
+/* CSS for footer, footer logo and footer text */
 
 .header-list ul li:hover{
 
@@ -231,7 +234,6 @@ margin: 0px;
 a{
 
 	text-decoration: none;
-
 }
 
 /* Other small tweaks for better display */

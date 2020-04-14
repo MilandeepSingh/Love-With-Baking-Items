@@ -2,15 +2,16 @@ body{
 	
 	background-color: lightblue;
 
+	/*background-image: url("cupcakes desert.jpg");*/
+
 	background-size: cover;
 
     font-family: "Avenir Next";
 
-    background-image: url('../images/home/home_background.jpg');
+    background-image: url('../images/contact/contact_background.jpg');
 	
-	min-width: 1500px;
+	min-width:1500px;
 }
-/* Tweaks for body such as body background, setting minimum width */
 .header{
 	background-color: #0009;/*for transparent header*/
 
@@ -23,6 +24,12 @@ body{
     overflow: hidden;
 
     }
+
+.header :hover{
+
+    background-color: #21b4385;
+
+}
 
 .header-list li{
      
@@ -43,10 +50,9 @@ body{
 	 color: white;
 
      transition: 0.8s all;
-	 
 }
 
-/* Displaying navigation bar */
+/* For header and header list */
 
 .header-logo{
 
@@ -62,65 +68,135 @@ body{
 	line-height:70px;
 }
 
-/* Logo fixation in the header */
+/* For header logo */
 
 li{
-	list-style: none; /*To remove bullets from navigation bar list*/
+	list-style: none;
 }
 
 h1.hello{
 	font-size:80;
-	font-family:"cooper black";
 }
 
 h2.description{
 	font-size:50;
-	font-family:"cooper black";
 }
 
-h3.engage{
-	font-size:35;
-	font-family:"cooper black";
-}
-
-/* Setting size and font for page content */
-
-.learnmore{
-	border: 2px solid #f39d1a;
-	height:50px;
-	width:200px;
-	border-radius:50px;	
-	background-color:#111111;
-	font-size: 25;
-	line-height:50px;
-	display:block;
-}
-
-.learnmore a{
-	color:#f39d1a;
-}
-
-.learnmore *:hover{
-	border: 2px solid #f39d1a;
-	height:50px;
-	width:200px;
-	border-radius:50px;	
-	background-color:#f39d1a;
-	color:#ffffff;
-	font-size: 25;
-	line-height:45px;
-	display:block;
-	
-}
-
-/* Setting the properties of leaarn more button */
 
 .main
 {
 
-    height: 600px;
-	color: ffffff;
-	background-color:#2226;
+    position: absolute;
+
+    top: 30%;
+
+   left: 50%;
+
+   transform: translate(-50%,-50%);
+
+}
+
+.main h1{
+
+color: blue;
+
+ font-size: 42px;
+
+text-align: center;
+
+}
+
+.main p{
+ 
+ color: #0000FF;
+
+ font-size: 13px;
+
+
+
+}
+
+.form{
+
+	position: absolute;
+
+	top: 64%;
+
+	left: 50%;
+
+	transform: translate(-50%,-50%);
+
+	text-align: center;
+
+}
+
+/* For details input */
+
+#msg{
+
+	margin-top: 60px;
+}
+
+button{
+
+	padding: 20px 32px;
+
+	font-size: 16px;
+
+	background: #0078ff;
+
+	border: none;
+
+	border-radius: 4px;
+
+	margin-top: 30px;
+
+	color: #fff;
+}
+
+/* For 'Let's talk' button */
+
+input{
+
+  width: 100%;
+
+  margin: 20px 0;
+
+  background: rgba(0,0,0,0);
+
+  border:none;
+
+  border-bottom: 1px solid #0078ff;
+
+
+}
+
+textarea{
+
+  width: 100%;
+
+  margin: 0px 0;
+
+  background: rgba(0,0,0,0);
+
+  border:none;
+
+  border-bottom: 1px solid #0078ff;
+
+
+}
+
+/* For input box and text-field */
+
+::-webkit-input-placeholder{
+              
+ color:  #00008B;
+
+ font-size: 13px;
+
+ letter-spacing: 3px;
+ 
+
 
 }
 
@@ -205,7 +281,7 @@ a:hover{
 	
 }
 
-/* Properties of footer, footer logo and footer text */
+/* For footer, footer logo and footer text */
 
 .header-list ul li:hover{
 
@@ -234,4 +310,4 @@ a{
 
 }
 
-/* Other small tweaks for better display */
+/* Some other small tags */
